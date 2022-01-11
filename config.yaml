@@ -1,0 +1,21 @@
+# 视频路径
+video_path: E:\dataset\Epilepsy_detection_mice\D01-P02-20201213A.mp4
+# 输出文件夹路径
+output_dir: E:\project\Epilepsy_detection_mice\result\output
+#二值化的阈值
+th: 20
+# 是否实时展示,True or False
+show: True
+#图像显示大小的长
+hx: 20.0
+#图像显示大小的宽
+hy: 8.0
+#判定癫痫发作时间点的均值系数
+f: 10
+
+######################### 下面参数不建议修改 ############################
+
+#设置frame_lwpCV 使用 cv2.resize 进行图像尺寸缩放的X轴方向的设定参数
+fx: 0.5
+#设置frame_lwpCV 使用 cv2.resize 进行图像尺寸缩放的Y轴方向的设定参数
+fy: 0.5

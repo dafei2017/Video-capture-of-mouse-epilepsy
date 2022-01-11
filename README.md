@@ -22,13 +22,13 @@ Time_points. TXT saves the time points of the mouse's fast movement calculated b
    
 3. Running examples and algorithm description  
 After the runtime environment is installed and the correct path is configured, double-click run.bat to start running, and the following screen will appear:  
- 
+![https://github.com/dafei2017/Video-capture-of-mouse-epilepsy/blob/main/%E5%9B%BE%E7%89%871.png]
 Boolean operation is used to binarize each frame of the video, and the binarized difference between each frame and the next frame is calculated, which is saved into the matrix res.npy and output into the visualized histogram hist.png. According to the mean value of the inter-frame difference of the whole video, the threshold value of epilepsy determination is obtained by multiplying the threshold coefficient.  Compare the difference between all frames to find out the time point when the threshold is exceeded and save it in time_points.txt.  Among them,  
- 
+ ![https://github.com/dafei2017/Video-capture-of-mouse-epilepsy/blob/main/%E5%9B%BE%E7%89%871.png]
 The SRC dialog displays the raw information of the input video.  
- 
+ ![https://github.com/dafei2017/Video-capture-of-mouse-epilepsy/blob/main/%E5%9B%BE%E7%89%871.png]
 Bin_img displays binary video;  
- 
+ ![https://github.com/dafei2017/Video-capture-of-mouse-epilepsy/blob/main/%E5%9B%BE%E7%89%871.png]
 Diff_img displays video information that calculates the difference between frames.  
 4. Appendix Description  
 V1.zip: program source code;  
